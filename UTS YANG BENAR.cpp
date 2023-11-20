@@ -22,7 +22,7 @@ int main() {
 	cout << "Input jam keluar (format 24 jam) :";
 	cin >> jb;
 
-	tj = ja + jb;
+	tj = 23;
 	ta = (motor * tj) * 2000;
 	tb = (mobil * tj) * 5000;
 	jk = (ta + tb);
